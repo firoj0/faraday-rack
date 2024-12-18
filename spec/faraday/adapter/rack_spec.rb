@@ -6,3 +6,4 @@ RSpec.describe Faraday::Adapter::Rack do
 
   it_behaves_like 'an adapter', adapter_options: WebmockRackApp.new
 end
+Control + Shift + m
